@@ -27,8 +27,7 @@ function studentsHasGraduated(){
     let a=0;
     for (let i = 0; i < grades.length; i++) {
         if (grades[i] > 7){
-            const b = 1;
-            a = a + b;
+            a++;
         }
     }
     return a;
